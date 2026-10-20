@@ -1,0 +1,301 @@
+.bgcolor {
+    background-color: #ff4533;
+}
+
+.bgimage {
+    background-image: url("batako.jpg");
+}
+
+.bgposition {
+    height: 350px;
+    background: url("logo.png") #820004 no-repeat left;
+}
+
+.gradient1 {
+    background: linear-gradient(to right, red, yellow,
+            green);
+}
+
+.gradient2 {
+    background: linear-gradient(red, yellow, green);
+}
+
+body {
+    background-color: #247b9e;
+}
+
+div.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #820215;
+}
+
+nav {
+    width: 20%;
+    height: 800px;
+    background: #002f42;
+    float: left;
+}
+
+div.content {
+    width: 80%;
+    height: 800px;
+    background: #fff;
+    float: right;
+
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background: #016060;
+
+}
+
+.maroon {
+    color: #820004;
+}
+
+.navy {
+    color: #05004c;
+}
+
+.indigo {
+    color: #5D76CB;
+}
+
+.spacing {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 20px;
+
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.paragraf {
+    font-family: "Courier New";
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+    font-family: "Tahoma";
+    font-size: 15px;
+}
+
+.btn-red {
+    padding: 10px;
+    background: #fc0202;
+    color: #fff;
+}
+
+.btn-blue {
+    padding: 10px;
+    background: #02496d;
+    color: #fff;
+}
+
+.btn-green {
+    padding: 10px;
+    background: #338401;
+    color: #fff;
+}
+
+.solid {
+    border-style: solid;
+    border-width: 4px;
+    border-color:
+        #000;
+}
+
+.dotted {
+
+    border-style: dotted;
+    border-width: 4px;
+    border-color:
+        #000;
+}
+
+.double {
+    border-style: double;
+    border-width: 4px;
+    border-color:
+        #000;
+}
+
+.ridge {
+    border-style: ridge;
+    border-width: 4px;
+}
+
+.inset {
+    border-style: inset;
+    border-width: 4px;
+}
+
+.outset {
+    border-style: outset;
+    border-width: 4px;
+}
+
+.round {
+    border-radius: 20px;
+}
+
+.container {
+    width: 50%;
+    height: 200px;
+    overflow: auto;
+    margin-left: 0 auto;
+}
+
+.static {
+    position: static;
+    border: 2px solid green;
+}
+
+.relative {
+    position: relative;
+    border: 2px solid red;
+    left: 20px;
+    /* jarak dari posisi paling kiri sebesar
+20px */
+    bottom: 0;
+    /* jarak dari posisi paling bawah sebesar 0px
+*/
+}
+
+.absolute {
+    position: absolute;
+    border: 2px solid blue;
+    left: 20px;
+    bottom: 40px;
+}
+
+.fixed {
+    position: fixed;
+    border: 2px solid black;
+    bottom:
+        0;
+    right: 0;
+}
+
+.sticky {
+    position: sticky;
+    border: 2px solid yellow;
+    top: 0;
+    left: 20px;
+    background: darkblue;
+    color: white;
+
+}
+
+.menu {
+    margin: 0;
+    width: 100%;
+    position: sticky;
+}
+
+nav {
+    width: 20%;
+    height: 400px;
+    background: #e2e0e0;
+}
+
+ul.horizontal {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #d10202;
+}
+
+ul.horizontal li {
+    float: left;
+}
+
+ul.horizontal li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+ul.horizontal li a:hover {
+    background-color: #6b0101;
+}
+
+ul.vertical {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #e2e0e0;
+}
+
+ul.vertical li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    text-align: left;
+}
+
+ul.vertical li a:hover {
+    background-color: #777777;
+    color: white;
+}
+
+div.news {
+    margin: 0 auto;
+    width: 70%;
+    height: 300px;
+    column-count: 2;
+    column-gap: 30px;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: #000;
+}
+
+div.box {
+    display: inline-block;
+    width: 200px;
+    float: left;
+    border: 2px solid #ddd;
+    margin: 10px;
+}
+
+div.box img {
+    width: 100%;
+    height: 250px;
+}
+
+div.box:hover {
+    border: 3px solid #000;
+}
+
+div.box div.deskripsi {
+
+    padding: 15px;
+    text-align: center;
+}
